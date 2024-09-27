@@ -77,7 +77,7 @@ function Context(){
           </div>              
         </div>   
         <div className='min-w-28 my-6 ml-[15vw]'> 
-          <div className='flex'>
+          <div className='flex items-center'>
             <input type="checkbox" value={showFinished} onClick={toodle}/>
             <div className='ml-5 my-5 text-[13px] text-nowrap'>Show Finished Todo's</div>
           </div>    
